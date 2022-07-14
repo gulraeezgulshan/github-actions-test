@@ -17,8 +17,8 @@ jobs:
           import platform 
           print(platform.processor())
         shell: python
-    run-windows-commands:
-      runs-on: windows-latest
-      steps:
-        - name: Directory Poweshett
-          run: Get-Location
+  run-windows-commands:
+    runs-on: windows-latest
+    steps:
+      - name: Directory Poweshett
+        run: Get-Location
