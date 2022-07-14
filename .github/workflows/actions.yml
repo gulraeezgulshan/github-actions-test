@@ -1,6 +1,4 @@
 name: Github Action Workflow
-
-
 on:
   repository_dispatch:
     types: [build]
