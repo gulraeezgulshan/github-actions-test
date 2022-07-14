@@ -1,7 +1,9 @@
 name: Github Action Workflow
 
-on: [push,pull_request] 
 
+on:
+  repository_dispatch:
+    types: [build]
 jobs:
   run-github-actions:
     runs-on: ubuntu-latest
